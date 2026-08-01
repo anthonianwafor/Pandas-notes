@@ -1,4 +1,4 @@
-## Pandas Commands and Their Task
+# Pandas Commands and Their Task
 | Command |  Task  |
 |---------|--------|
 | pd.read_csv() | Load a CSV |
