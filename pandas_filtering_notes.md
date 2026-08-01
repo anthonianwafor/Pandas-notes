@@ -1,8 +1,20 @@
+## Pandas Commands and Their Task
+| Command |  Task  |
+|---------|--------|
+| pd.read_csv() | Load a CSV |
+| df.head() | Preview first rows |
+| df.tail() | Preview last rows |
+| df.shape | Check rows and columns |
+| df.columns | View column names |
+| df.info() | View dataset summary |
+| df.describe() | View numerical statistics | 
+
+---
 # Pandas Filtering Notes
 ## Selecting One Column
 To select one column from a DataFrame:
 
-  python
+---python---
 
 df["Name"]
 
@@ -12,7 +24,7 @@ This returns only the Name column.
 ## Selecting Multiple Columns
 To select multiple columns from a DataFrame:
 
-  python
+---python---
   
 df[["Name", "Salary"]]
 
@@ -32,13 +44,13 @@ This returns only the row where Age is greater than 25.
 ## Multiple Conditions
 AND
 
-  python
+---python---
   
 df[(df["Age"] > 20) & (df["Department"] == "Sales")]
 
 OR
 
-  python
+---python---
   
 df[(df["Age"] > 20) | (df["Department"] == "Sales")]
 
