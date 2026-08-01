@@ -6,7 +6,7 @@ To select one column from a DataFrame:
 
 df["Name"]
 
-This returns only the Nmae column.
+This returns only the Name column.
 
 ---
 ## Selecting Multiple Columns
@@ -14,7 +14,7 @@ To select multiple columns from a DataFrame:
 
   python
   
-df[["Nmae", "Salary"]]
+df[["Name", "Salary"]]
 
 Notice that two square brackets are used because the second pair creates a list of column names.
 
@@ -22,7 +22,7 @@ Notice that two square brackets are used because the second pair creates a list 
 ## Filtering Rows
 Example:
 
-  python
+---python---
   
 df[df["Age"] > 25]
 
