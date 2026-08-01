@@ -1,43 +1,47 @@
 # Pandas Filtering Notes
 ## Selecting One Column
 To select one column from a DataFrame:
-________
+
   python
 
 df["Name"]
-________
+
 This returns only the Nmae column.
 
 ---
 ## Selecting Multiple Columns
 To select multiple columns from a DataFrame:
-...
+
   python
+  
 df[["Nmae", "Salary"]]
-...
+
 Notice that two square brackets are used because the second pair creates a list of column names.
 
 ---
 ## Filtering Rows
 Example:
-...
+
   python
+  
 df[df["Age"] > 25]
-...
+
 This returns only the row where Age is greater than 25.
 
 ---
 ## Multiple Conditions
 AND
-...
+
   python
+  
 df[(df["Age"] > 20) & (df["Department"] == "Sales")]
 
 OR
-...
+
   python
+  
 df[(df["Age"] > 20) | (df["Department"] == "Sales")]
-...
+
 
 ---
 ## What I Learned
