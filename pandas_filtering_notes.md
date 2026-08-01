@@ -1,10 +1,10 @@
 # Pandas Filtering Notes
 ## Selecting One Column
 To select one column from a DataFrame:
-...
-  python
+
+  `python
 df["Name"]
-...
+
 This returns only the Nmae column.
 
 ---
