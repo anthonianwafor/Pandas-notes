@@ -1,2 +1,2 @@
 # Pandas-notes
-My Pandas notes&lt; practice excercises and projects.
+My learning journey in Pandas for Data Science.
