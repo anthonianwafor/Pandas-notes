@@ -14,7 +14,6 @@
 ## Selecting One Column
 To select one column from a DataFrame:
 
----python---
 
 df["Name"]
 
@@ -24,7 +23,6 @@ This returns only the Name column.
 ## Selecting Multiple Columns
 To select multiple columns from a DataFrame:
 
----python---
   
 df[["Name", "Salary"]]
 
@@ -34,7 +32,6 @@ Notice that two square brackets are used because the second pair creates a list 
 ## Filtering Rows
 Example:
 
----python---
   
 df[df["Age"] > 25]
 
@@ -44,13 +41,11 @@ This returns only the row where Age is greater than 25.
 ## Multiple Conditions
 AND
 
----python---
   
 df[(df["Age"] > 20) & (df["Department"] == "Sales")]
 
 OR
 
----python---
   
 df[(df["Age"] > 20) | (df["Department"] == "Sales")]
 
