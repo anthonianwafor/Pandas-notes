@@ -1,14 +1,14 @@
 # Pandas Sorting Data with 'sort-values()'
-## Dorting One Column
+## Sorting One Column
 
-df.sort-values("Salary")
+  df.sort-values("Salary")
 
 Sorts values from smallest to largest by defult.
 
 ---
 ## Descending Order
 
-df.sort-values("Salary", ascending=False)
+  df.sort-values("Salary", ascending=False)
 
 Sorts values from largest to smallest by defult.
 
@@ -17,12 +17,13 @@ Sorts values from largest to smallest by defult.
 ## Sorting Multiple Columns
 
 
-df.sort-values(
-  by=["Department", "Salary"],
-  ascending=[True, False]
-)
+  df.sort-values(
+    by=["Department", "Salary"],
+    ascending=[True, False]
+  )
 
 -Department is sorted alphabetically.
+
 -Salary is sorted from highest to lowest within each department.
 
 ---
